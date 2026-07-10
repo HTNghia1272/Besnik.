@@ -69,6 +69,10 @@ a {
   background: #fff;
 }
 
+.header .logo {
+  display: block;
+}
+
 .header .body {
   display: flex;
   align-items: center;
@@ -97,7 +101,9 @@ a {
 .nav ul a:hover {
   color: #2f3a3b;
   font-size: 1.6rem;
-  font-weight: 600;
+  text-shadow:
+    0 0 0 currentColor,
+    0 0 0 currentColor;
 }
 
 .sign {
@@ -109,6 +115,12 @@ a {
   padding: 12px 24px;
   color: #494949;
   font-size: 1.6rem;
+}
+
+.sign-btn a:hover {
+  text-shadow:
+    0 0 0 currentColor,
+    0 0 0 currentColor;
 }
 
 .sign-up-btn a {
@@ -626,6 +638,7 @@ a {
 
 /* Footer */
 .footer .logo {
+  display: block;
   margin-bottom: auto;
 }
 
@@ -653,6 +666,14 @@ a {
 .footer .row .column li a {
   color: #535353;
   font-size: 1.6rem;
+}
+
+.footer .row .column li a:hover {
+  color: #2f3a3b;
+  text-shadow:
+    0 0 0 currentColor,
+    0 0 0 currentColor;
+  text-decoration: underline;
 }
 
 .footer .social li a {
